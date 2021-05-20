@@ -1,2 +1,2 @@
 Available Books currently include:
-# Revelation
+[Revelation](Revelation.md)
