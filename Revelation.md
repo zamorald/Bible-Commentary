@@ -939,9 +939,36 @@ And Abraham lifted up his eyes and looked, and behold, behind him was a ram, cau
 ## 7:9 ##
 "After this I looked, and behold, a great multitude that no one could number, from every nation, from all tribes and peoples and languages, standing before the throne and before the Lamb, clothed in white robes, with palm branches in their hands,"
 
+### a great multitude that no one could number ###
+>**Genesis 17:4**  
+Behold, my covenant is with you, and you shall be the father of a multitude of nations.  
+
+
+### from every nation...all tribes and peoples and languages ###
+>**Acts 2:5-11**  
+Now there were dwelling in Jerusalem Jews, devout men from every nation under heaven. And at this sound the multitude came together, and they were bewildered, because each one was hearing them speak in his own language. And they were amazed and astonished, saying, "Are not all these who are speaking Galileans? And how is it that we hear, each of us in his own native language? Parthians and Medes and Elamites and residents of Mesopotamia, Judea and Cappadocia, Pontus and Asia, Phrygia and Pamphylia, Egypt and the parts of Libya belonging to Cyrene, and visitors from Rome, both Jews and proselytes, Cretans and Arabians--we hear them telling in our own tongues the mighty works of God."  
+
+### palm branches ###
+>**Leviticus 23:39-43**  
+...And you shall take on the first day the fruit of splendid trees, branches of palm trees and boughs of leafy trees and willows of the brook, and you shall rejoice before the LORD your God seven days.... You shall dwell in booths for seven days. All native Israelites shall dwell in booths, that your generations may know that I made the people of Israel dwell in booths when I brought them out of the land of Egypt: I am the LORD your God.  
+>**John 12:12-13**  
+The next day the large crowd that had come to the feast heard that Jesus was coming to Jerusalem. So they took branches of palm trees and went out to meet him, crying out, "Hosanna! Blessed is he who comes in the name of the Lord, even the King of Israel!"  
+
+### clothed in white robes ###
+
 
 ## 7:10 ##
 "and crying out with a loud voice, "Salvation belongs to our God who sits on the throne, and to the Lamb!"
+
+### Salvation belongs to our God ###
+>**Psalm 3:1-2, 8  
+A Psalm of David, when he fled from Absalom his son.  
+O LORD, how many are my foes!  
+Many are rising against me;  
+many are saying of my soul,  
+"There is no salvation for him in God." Selah  
+...Salvation belongs to the LORD;  
+your blessing be on your people! Selah  
 
 
 ## 7:11 ##
@@ -951,6 +978,9 @@ And Abraham lifted up his eyes and looked, and behold, behind him was a ram, cau
 ## 7:12 ##
 "saying, "Amen! Blessing and glory and wisdom and thanksgiving and honor and power and might be to our God forever and ever! Amen."
 
+### blessing and glory and wisdom and thanksgiving and honor and power and might ###
+>**1 Chronicles 29:10-13**  
+Therefore David blessed the LORD in the presence of all the assembly. And David said: "Blessed are you, O LORD, the God of Israel our father, forever and ever. Yours, O LORD, is the greatness and the power and the glory and the victory and the majesty, for all that is in the heavens and in the earth is yours. Yours is the kingdom, O LORD, and you are exalted as head above all. Both riches and honor come from you, and you rule over all. In your hand are power and might, and in your hand it is to make great and to give strength to all. And now we thank you, our God, and praise your glorious name.  
 
 ## 7:13 ##
 "Then one of the elders addressed me, saying, "Who are these, clothed in white robes, and from where have they come?"
@@ -959,17 +989,50 @@ And Abraham lifted up his eyes and looked, and behold, behind him was a ram, cau
 ## 7:14 ##
 "I said to him, "Sir, you know." And he said to me, "These are the ones coming out of the great tribulation. They have washed their robes and made them white in the blood of the Lamb."
 
+### the great tribulation ###
+>**Matthew 24:15, 21-22**  
+So when you see the abomination of desolation spoken of by the prophet Daniel, standing in the holy place (let the reader understand)....  Then there will be great tribulation, such as has not been from the beginning of the world until now, no, and never will be. And if those days had not been cut short, no human being would be saved. But for the sake of the elect those days will be cut short.  
+>**John 16:33**  
+I have said these things to you, that in me you may have peace. In the world you will have tribulation. But take heart; I have overcome the world.  
+>**Romans 8:35, 37**  
+Who shall separate us from the love of Christ? Shall tribulation, or distress, or persecution, or famine, or nakedness, or danger, or sword...? No, in all these things we are more than conquerors through him who loved us.  
+>**1:9**  
+I, John, your brother and partner in the tribulation and the kingdom and the patient endurance that are in Jesus, was on the island called Patmos on account of the word of God and the testimony of Jesus.  
+>**2:9**  
+I know your tribulation and your poverty (but you are rich) and the slander of those who say that they are Jews and are not, but are a synagogue of Satan.  
 
 ## 7:15 ##
 "Therefore they are before the throne of God, and serve him day and night in his temple; and he who sits on the throne will shelter them with his presence."
 
+### shelter them with his presence ###
+>**Psalm 31:19-20**  
+Oh, how abundant is your goodness,  
+which you have stored up for those who fear you  
+and worked for those who take refuge in you,  
+in the sight of the children of mankind!  
+In the cover of your presence you hide them  
+from the plots of men;  
+you store them in your shelter  
+from the strife of tongues.  
 
 ## 7:16 ##
 "They shall hunger no more, neither thirst anymore; the sun shall not strike them, nor any scorching heat."
 
-
 ## 7:17 ##
 "For the Lamb in the midst of the throne will be their shepherd, and he will guide them to springs of living water, and God will wipe away every tear from their eyes."
+
+>**Isaiah 49:5-6, 8-10**  
+And now the LORD says, he who formed me from the womb to be his servant, to bring Jacob back to him; and that Israel might be gathered to him-- for I am honored in the eyes of the LORD, and my God has become my strength-- he says: "It is too light a thing that you should be my servant to raise up the tribes of Jacob and to bring back the preserved of Israel; I will make you as a light for the nations, that my salvation may reach to the end of the earth...." Thus says the LORD: "In a time of favor I have answered you; in a day of salvation I have helped you; I will keep you and give you as a covenant to the people, to establish the land, to apportion the desolate heritages, saying to the prisoners, 'Come out,' to those who are in darkness, 'Appear.' They shall feed along the ways; on all bare heights shall be their pasture; they shall not hunger or thirst, neither scorching wind nor sun shall strike them, for he who has pity on them will lead them, and by springs of water will guide them.  
+
+### wipe away every tear ###
+>**Isaiah 25:7-8**  
+And he will swallow up on this mountain  
+the covering that is cast over all peoples,  
+the veil that is spread over all nations.  
+He will swallow up death forever;  
+and the Lord GOD will wipe away tears from all faces,  
+and the reproach of his people he will take away from all the earth,  
+for the LORD has spoken.  
 
 
 [Table of Contents](#revelation)
@@ -1083,22 +1146,56 @@ And Abraham lifted up his eyes and looked, and behold, behind him was a ram, cau
 ## 9:13 ##
 "Then the sixth angel blew his trumpet, and I heard a voice from the four horns of the golden altar before God,"
 
+### four horns of the golden alter ###
+>**Exodus 30:1–3, 6**  
+"You shall make an altar on which to burn incense; you shall make it of acacia wood. A cubit shall be its length, and a cubit its breadth. It shall be square, and two cubits shall be its height. Its horns shall be of one piece with it. You shall overlay it with pure gold, its top and around its sides and its horns. And you shall make a molding of gold around it.... And you shall put it in front of the veil that is above the ark of the testimony, in front of the mercy seat that is above the testimony, where I will meet with you."  
 
 ## 9:14 ##
 "saying to the sixth angel who had the trumpet, "Release the four angels who are bound at the great river Euphrates."
 
+### river Euphrates ###
+>**Jeremiah 46:2, 6, 10**  
+About Egypt. Concerning the army of Pharaoh Neco, king of Egypt, which was by the river Euphrates at Carchemish and which Nebuchadnezzar king of Babylon defeated in the fourth year of Jehoiakim the son of Josiah, king of Judah.... The swift cannot flee away, nor the warrior escape; in the north by the river Euphrates they have stumbled and fallen.... That day is the day of the Lord GOD of hosts, a day of vengeance, to avenge himself on his foes. The sword shall devour and be sated and drink its fill of their blood. For the Lord GOD of hosts holds a sacrifice in the north country by the river Euphrates.
 
 ## 9:15 ##
 "So the four angels, who had been prepared for the hour, the day, the month, and the year, were released to kill a third of mankind."
+
+### prepared for the hour, the day, the month, and the year ###
+>**Genesis 7:11**  
+In the six hundredth year of Noah's life, in the second month, on the seventeenth day of the month, on that day all the fountains of the great deep burst forth, and the windows of the heavens were opened.  
+**2 Kings 25:1**  
+And in the ninth year of his reign, in the tenth month, on the tenth day of the month, Nebuchadnezzar king of Babylon came with all his army against Jerusalem and laid siege to it. And they built siegeworks all around it.  
 
 
 ## 9:16 ##
 "The number of mounted troops was twice ten thousand times ten thousand; I heard their number."
 
+### twice ten thousand times ten thousand ###
+>**Psalm 68:17**  
+The chariots of God are twice ten thousand, thousands upon thousands; the Lord is among them; Sinai is now in the sanctuary.  
+**Daniel 7:10**  
+A stream of fire issued and came out from before him; a thousand thousands served him, and ten thousand times ten thousand stood before him; the court sat in judgment, and the books were opened.  
+
+### I heard their number ###
+
 
 ## 9:17 ##
 "And this is how I saw the horses in my vision and those who rode them: they wore breastplates the color of fire and of sapphire and of sulfur, and the heads of the horses were like lions' heads, and fire and smoke and sulfur came out of their mouths."
 
+### fire and sapphire and sulfur ###
+>**Genesis 19:24**  
+Then the LORD rained on Sodom and Gomorrah sulfur and fire from the LORD out of heaven.  
+**Psalm 11:6**  
+Let him rain coals on the wicked; fire and sulfur and a scorching wind shall be the portion of their cup.  
+
+### lion's heads ###
+>**Isaiah 5:26–30**  
+He will raise a signal for nations far away, and whistle for them from the ends of the earth; and behold, quickly, speedily they come! None is weary, none stumbles, none slumbers or sleeps, not a waistband is loose, not a sandal strap broken; their arrows are sharp, all their bows bent, their horses' hoofs seem like flint, and their wheels like the whirlwind. Their roaring is like a lion, like young lions they roar; they growl and seize their prey; they carry it off, and none can rescue. They will growl over it on that day, like the growling of the sea. And if one looks to the land, behold, darkness and distress; and the light is darkened by its clouds.  
+
+### fire and smoke and sulfur came out of their mouths ###
+>**Psalm 18:1, 6–8**  
+A Psalm of David, the servant of the LORD, who addressed the words of this song to the LORD on the day when the LORD delivered him from the hand of all his enemies, and from the hand of Saul. He said:  
+I love you, O LORD, my strength.... In my distress I called upon the LORD; to my God I cried for help. From his temple he heard my voice, and my cry to him reached his ears. Then the earth reeled and rocked; the foundations also of the mountains trembled and quaked, because he was angry. Smoke went up from his nostrils, and devouring fire from his mouth; glowing coals flamed forth from him.  
 
 ## 9:18 ##
 "By these three plagues a third of mankind was killed, by the fire and smoke and sulfur coming out of their mouths."
@@ -1107,10 +1204,23 @@ And Abraham lifted up his eyes and looked, and behold, behind him was a ram, cau
 ## 9:19 ##
 "For the power of the horses is in their mouths and in their tails, for their tails are like serpents with heads, and by means of them they wound."
 
+### tails...like serpents ###
+>**Proverbs 23:29–32**  
+Who has wounds without cause...? Those who tarry long over wine.... Do not look at wine when it is red, when it sparkles in the cup and goes down smoothly. In the end it bites like a serpent and stings like an adder.  
 
 ## 9:20 ##
 "The rest of mankind, who were not killed by these plagues, did not repent of the works of their hands nor give up worshiping demons and idols of gold and silver and bronze and stone and wood, which cannot see or hear or walk,"
 
+### did not repent ###
+>**Matthew 11:20, 23–24**  
+Then he began to denounce the cities where most of his mighty works had been done, because they did not repent....  
+Capernaum, will you be exalted to heaven? You will be brought down to Hades. For if the mighty works done in you had been done in Sodom, it would have remained until this day. But I tell you that it will be more tolerable on the day of judgment for the land of Sodom than for you.  
+
+### idols of gold and silver and bronze and stone and wood, which cannot see or hear or walk, ###
+>**Deuteronomy 4:28**  
+And there you will serve gods of wood and stone, the work of human hands, that neither see, nor hear, nor eat, nor smell.  
+**Daniel 5:23**  
+And you have praised the gods of silver and gold, of bronze, iron, wood, and stone, which do not see or hear or know, but the God in whose hand is your breath, and whose are all your ways, you have not honored.  
 
 ## 9:21 ##
 "nor did they repent of their murders or their sorceries or their sexual immorality or their thefts."
