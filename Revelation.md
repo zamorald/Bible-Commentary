@@ -1225,6 +1225,24 @@ And you have praised the gods of silver and gold, of bronze, iron, wood, and sto
 ## 9:21 ##
 "nor did they repent of their murders or their sorceries or their sexual immorality or their thefts."
 
+### sorceries ###  
+>**φαρμακεία**  
+I.
+1. use of drugs, esp. of purgatives...; i. e. emetics; of abortifacients..., generally, the use of any kind of drugs, potions, or spells....  
+2. poisoning or witchcraft....  
+II.  
+metaphorically, remedy  
+[Liddell & Scott](http://stephanus.tlg.uci.edu/lsj/#eid=113305)  
+
+>**Galatians 5:19–21**  
+Now the works of the flesh are evident: sexual immorality, impurity, sensuality, idolatry, _sorcery_, enmity, strife, jealousy, fits of anger, rivalries, dissensions, divisions, envy, drunkenness, orgies, and things like these. I warn you, as I warned you before, that those who do such things will not inherit the kingdom of God.  
+
+Compare φάρμακος:  
+>**21:8**  
+But as for the cowardly, the faithless, the detestable, as for murderers, the sexually immoral, _sorcerers_, idolaters, and all liars, their portion will be in the lake that burns with fire and sulfur, which is the second death.  
+**22:15**  
+Outside are the dogs and _sorcerers_ and the sexually immoral and murderers and idolaters, and everyone who loves and practices falsehood.  
+
 
 [Table of Contents](#revelation)
 
@@ -1232,6 +1250,9 @@ And you have praised the gods of silver and gold, of bronze, iron, wood, and sto
 
 ## 10:1 ##
 "Then I saw another mighty angel coming down from heaven, wrapped in a cloud, with a rainbow over his head, and his face was like the sun, and his legs like pillars of fire."
+
+>**Ezekiel 1:28**  
+Like the appearance of the bow that is in the cloud on the day of rain, so was the appearance of the brightness all around. Such was the appearance of the likeness of the glory of the LORD. And when I saw it, I fell on my face, and I heard the voice of one speaking.  
 
 
 ## 10:2 ##
@@ -1269,9 +1290,15 @@ And you have praised the gods of silver and gold, of bronze, iron, wood, and sto
 ## 10:10 ##
 "And I took the little scroll from the hand of the angel and ate it. It was sweet as honey in my mouth, but when I had eaten it my stomach was made bitter."
 
+>**Ezekiel 2:9–3:3**  
+And when I looked, behold, a hand was stretched out to me, and behold, a scroll of a book was in it. And he spread it before me. And it had writing on the front and on the back, and there were written on it words of lamentation and mourning and woe. And he said to me, "Son of man, eat whatever you find here. Eat this scroll, and go, speak to the house of Israel." So I opened my mouth, and he gave me this scroll to eat. And he said to me, "Son of man, feed your belly with this scroll that I give you and fill your stomach with it." Then I ate it, and it was in my mouth as sweet as honey.  
+
 
 ## 10:11 ##
 "And I was told, "You must again prophesy about many peoples and nations and languages and kings."
+
+>**Ezekiel 3:4–7**  
+And he said to me, "Son of man, go to the house of Israel and speak with my words to them. For you are not sent to a people of foreign speech and a hard language, but to the house of Israel-- not to many peoples of foreign speech and a hard language, whose words you cannot understand. Surely, if I sent you to such, they would listen to you. But the house of Israel will not be willing to listen to you, for they are not willing to listen to me: because all the house of Israel have a hard forehead and a stubborn heart."  
 
 
 [Table of Contents](#revelation)
@@ -1282,17 +1309,31 @@ And you have praised the gods of silver and gold, of bronze, iron, wood, and sto
 ## 11:1 ##
 "Then I was given a measuring rod like a staff, and I was told, "Rise and measure the temple of God and the altar and those who worship there,"
 
+>**Ezekiel 40:1–4**  
+In the twenty-fifth year of our exile, at the beginning of the year, on the tenth day of the month, in the fourteenth year after the city was struck down, on that very day, the hand of the LORD was upon me, and he brought me to the city. In visions of God he brought me to the land of Israel, and set me down on a very high mountain, on which was a structure like a city to the south. When he brought me there, behold, there was a man whose appearance was like bronze, with a linen cord and a measuring reed in his hand. And he was standing in the gateway. And the man said to me, "Son of man, look with your eyes, and hear with your ears, and set your heart upon all that I shall show you, for you were brought here in order that I might show it to you. Declare all that you see to the house of Israel."  
+>**Ezekiel 43:10–11**  
+As for you, son of man, describe to the house of Israel the temple, that they may be ashamed of their iniquities; and they shall measure the plan. And if they are ashamed of all that they have done, make known to them the design of the temple, its arrangement, its exits and its entrances, that is, its whole design; and make known to them as well all its statutes and its whole design and all its laws, and write it down in their sight, so that they may observe all its laws and all its statutes and carry them out.  
 
 ## 11:2 ##
 "but do not measure the court outside the temple; leave that out, for it is given over to the nations, and they will trample the holy city for forty-two months."
+
+I.e., a year (12 months), years (24 months), and half a year (6 months).
 
 
 ## 11:3 ##
 "And I will grant authority to my two witnesses, and they will prophesy for 1,260 days, clothed in sackcloth."
 
+I.e., 3 and a half years of 30-day months.
+
 
 ## 11:4 ##
 "These are the two olive trees and the two lampstands that stand before the Lord of the earth."
+
+>**Zechariah 4:2–3, 6–10, 12, 14**  
+And he said to me, "What do you see?" I said, "I see, and behold, a lampstand all of gold, with a bowl on the top of it, and seven lamps on it, with seven lips on each of the lamps that are on the top of it. And there are two olive trees by it, one on the right of the bowl and the other on its left."  
+Then he said to me, "This is the word of the LORD to Zerubbabel: Not by might, nor by power, but by my Spirit, says the LORD of hosts. Who are you, O great mountain? Before Zerubbabel you shall become a plain. And he shall bring forward the top stone amid shouts of 'Grace, grace to it!'" Then the word of the LORD came to me, saying, "The hands of Zerubbabel have laid the foundation of this house; his hands shall also complete it. Then you will know that the LORD of hosts has sent me to you. For whoever has despised the day of small things shall rejoice, and shall see the plumb line in the hand of Zerubbabel. "These seven are the eyes of the LORD, which range through the whole earth."  
+And a second time I answered and said to him, "What are these two branches of the olive trees, which are beside the two golden pipes from which the golden oil is poured out?"  
+Then he said, "These are the two anointed ones who stand by the Lord of the whole earth."  
 
 
 ## 11:5 ##
