@@ -1,7 +1,4 @@
-# Commentary #
-Notes and references gathered for and from teaching the Bible
-
-## Contents ##
+# Contents #
 
 * Psalms
   - [22](Psalms/022.md)
