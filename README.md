@@ -1,10 +1,11 @@
 # Commentary
 Notes and references gathered for and from teaching the Bible
 
-[Revelation](#Revelation)
-
-
-
+* Song of Solomon
+  - [Chapter 4][sng04]
+  - [Chapter 5][sng05]
+* 1 Corinthians
+  - [Chapter  9][1co09]
 * Revelation
   - [Chapter  1][rev01]
   - [Chapter  2][rev02]
@@ -30,7 +31,9 @@ Notes and references gathered for and from teaching the Bible
   - [Chapter 22][rev22]
 
 
-
+[sng04]: Song_of_Solomon/04.md "Song of Solomon Chapter 4"
+[sng05]: Song_of_Solomon/05.md "Song of Solomon Chapter 5"
+[1co09]: 1_Corinthians/09.md "1 Corinthians Chapter 9"
 [rev01]: Revelation/01.md "Revelation Chapter 1"
 [rev02]: Revelation/02.md "Revelation Chapter 2"
 [rev03]: Revelation/03.md "Revelation Chapter 3"
