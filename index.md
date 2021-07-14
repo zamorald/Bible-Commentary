@@ -1,5 +1,5 @@
 # Commentary #
-Notes for and from teaching the Bible
+Notes and references gathered for and from teaching the Bible
 
 ## Contents ##
 
