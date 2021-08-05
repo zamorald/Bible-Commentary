@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title }} - {{ subtitle }}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="{{ base_path }}Commentary.css">
+    <script src="{{ base_path }}html5shiv-printshiv.min.js"></script>
+</head>
+
+<body id="{{ book }}{{ chapter }}">
+
+<nav>
+<section>
+    <span class="home">
+        <a href="{{ base_path }}">Table of Contents</a>
+    </span>
+</section>
+</nav>
+
+<main>
+{{ content }}
+</main>
+
+<footer>
+    <section>
+        <p>&copy; {{ current_year }} {{ author }}</p>
+    </section>
+</footer>
+
+</body>
+</html>

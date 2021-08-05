@@ -1,0 +1,35 @@
+<h1>2 Opinions 3:16</h1>
+<h2>"There are many paths..."</h2>
+<p>
+    Here is the "site_url": {{ site_url }}
+</p>
+<p>
+    Here is the "base_path": {{ base_path }}
+</p>
+<p>
+    Here is the "slug": {{ slug }}
+</p>
+
+<ul>
+    <li><a href="{{ base_path }}AnotherBook/3/#16">Link to another book starting with the base path</a></li>
+    <li><a href="{{ site_url }}{{ base_path }}YetAnotherBook/3/#16">Link to another book starting with the site url</a></li>
+    <li><a href="../../../AnotherBook/3/#16">Relative link to another book</a></li>
+    <li><a href="/AnotherBook/3/#16">attempt at an absolute path to another book</a></li>
+</ul>
+
+<h2>"I wouldn't be so bold as to claim I knew anything...!"</h2>
+<p>
+    Here is the "book": {{ book }}
+</p>
+<p>
+    Here is the "title": {{ title }}
+</p>
+<p>
+    Here is the "subtitle": {{ subtitle }}
+</p>
+<p>
+    Here is the "chapter": {{ chapter }}
+</p>
+<p>
+    Here is the "chapter_id": {{ chapter_id }}
+</p>
