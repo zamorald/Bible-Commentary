@@ -1,0 +1,124 @@
+/* Commentary CSS */
+              /*
+              * {
+                  margin: 0;
+                  padding: 0;
+              }
+              */
+
+#toc li {
+    font-variant: small-caps;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+body {
+    font-family: serif;
+    background-color: white;
+    color: black;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+blockquote.external {
+    font-family: cursive;
+}
+
+blockquote.external::before {
+    content: open-quote;
+    font-size: 3em;
+    vertical-align: bottom;
+}
+
+blockquote.external::after {
+    content: close-quote;
+    font-size: 3em;
+    vertical-align: top;
+}
+
+.verse {
+    
+}
+
+.commented {
+    font-variant: small-caps;
+}
+
+.comment {
+
+}
+
+.scripture {
+    
+}
+
+.scripture a {
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.home {
+    font-weight: bold;
+}
+
+
+/* from here, stolen from makesite.py */
+/* Single column layout */
+nav section, header section, main, footer section {
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 0.5em;
+}
+
+
+/* Navigation panel */
+nav {
+    background: #333333;
+    border-bottom: thin solid #111111;
+    line-height: 3em;
+}
+
+nav a {
+    margin-right: 1em;
+}
+
+nav a:link, nav a:visited {
+    color: #cccccc;
+}
+
+nav a:hover, nav a:active {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 600px) {
+    nav .links {
+        float: right;
+    }
+}
+
+
+/* Footer */
+footer {
+    background: #f0f0f0;
+    border-top: thin solid #e0e0e0;
+    margin-top: 2em;
+    padding: 1em 0;
+    box-shadow: 0 100vh 0 100vh #f0f0f0;
+    text-align: center;
+}
+
+footer section p {
+    font-size: 0.8em;
+}
+
+footer a {
+    margin-right: 1em;
+}
+
+footer a:last-child {
+    margin-right: 0;
+}
