@@ -163,6 +163,76 @@ def main():
         'site_url': 'http://localhost:8000',
         'current_year': datetime.datetime.now().year
     }
+    # Books and chapters.
+    bible_books = {
+        'Genesis':50,
+        'Exodus':40,
+        'Leviticus':27,
+        'Numbers':36,
+        'Deuteronomy':34,
+        'Joshua':24,
+        'Judges':21,
+        'Ruth':4,
+        '1_Samuel':31,
+        '2_Samuel':24,
+        '1_Kings':22,
+        '2_Kings':25,
+        '1_Chronicles':29,
+        '2_Chronicles':36,
+        'Ezra':10,
+        'Nehemiah':13,
+        'Esther':10,
+        'Job':42,
+        'Psalm':150,
+        'Proverbs':31,
+        'Ecclesiastes':12,
+        'Song_of_Solomon':8,
+        'Isaiah':66,
+        'Jeremiah':52,
+        'Lamentations':5,
+        'Ezekiel':48,
+        'Daniel':12,
+        'Hosea':14,
+        'Joel':3,
+        'Amos':9,
+        'Obadiah':1,
+        'Jonah':4,
+        'Micah':7,
+        'Nahum':3,
+        'Habakkuk':3,
+        'Zephaniah':3,
+        'Haggai':2,
+        'Zechariah':14,
+        'Malachi':4,
+        'Matthew':28,
+        'Mark':16,
+        'Luke':24,
+        'John':21,
+        'Acts':28,
+        'Romans':16,
+        '1_Corinthians':16,
+        '2_Corinthians':13,
+        'Galatians':6,
+        'Ephesians':6,
+        'Philippians':4,
+        'Colossians':4,
+        '1_Thessalonians':5,
+        '2_Thessalonians':3,
+        '1_Timothy':6,
+        '2_Timothy':4,
+        'Titus':3,
+        'Philemon':1,
+        'Hebrews':13,
+        'James':5,
+        '1_Peter':5,
+        '2_Peter':3,
+        '1_John':5,
+        '2_John':1,
+        '3_John':1,
+        'Jude':1,
+        'Revelation':22,
+        'Appendix':0
+    }
 
     # If params.json exists, load it.
     if os.path.isfile('params.json'):
@@ -172,46 +242,81 @@ def main():
     page_layout = fread('layout/page.html')
     chapter_layout = fread('layout/chapter.html')
     toc_layout = fread('layout/toc.html')
-
+    
     # Combine layouts to form final layouts.
     chapter_layout = render(page_layout, content=chapter_layout)
     toc_layout = render(page_layout, content=toc_layout)
-
+    
+    # Make Appendix pages.
+    articles = glob.glob('content\\Appendix\\[!^index]**')
+    for article in articles:
+        make_pages(article, '_site\\Appendix\\{{ slug }}\\index.html', page_layout, **params)
+    
     # Combine verses to form chapters.
     chapters = glob.glob('content\\**\\**\\')
     for chapter in chapters:
-        # compile index.html per chapter from any verses with commentary
+        # Create file "index.html" in the chapter directory by reading verse files into it.
+        # Commented verses are HTML files prepended with an underscore.
         verses = glob.glob(chapter + '_*.html')
+
+        # Don't forget to specify encoding to preserve Greek characters.
         with open(chapter + 'index.html', mode='w', encoding='utf-8') as c:
             for verse in sorted(verses):
                 content = fread(str(verse))
                 c.write(content)
+
         # Create chapter pages.
         make_pages(chapter + 'index.html', '_site\\' + chapter.removeprefix('content\\') + 'index.html', chapter_layout, **params)
 
-    # Generate Table of Contents content.
+    # key book url to book slug
     books = glob.glob('content\\**\\')
+    book_sorter = {}
+    for book in books:
+        book_sorter[book.removeprefix('content\\').replace(' ','_').removesuffix('\\')] = book
+
+    # Generate Table of Contents content.
     with open('content/index.html', mode='w', encoding='utf-8') as toc:
-        toc.write('<!-- render: yes -->\n')
-        toc.write('<!-- book: Bible Commentary -->\n')
-        toc.write('<!-- book: BibleCommentary -->\n')
-        toc.write('<!-- chapter: TableOfContents -->\n')
-        toc.write('<!-- title: Table of Contents -->\n\n')
-        for book in books:
-            toc.write('\n\t\t\t<li>' + book.removeprefix('content\\').replace('_',' ').removesuffix('\\'))
-            toc.write('\n\t\t\t\t<ul>')
-            chapters = glob.glob(book + '\\**\\')
-            for chapter in sorted(chapters):
-                toc.write('\n\t\t\t\t\t<li>')
-                toc.write('<a href="{{ base_path }}' + chapter.removeprefix('content\\') + '">')
-                toc.write(chapter.removeprefix(book).removesuffix('\\') + '</a></li>')
-            toc.write('\n\t\t\t\t</ul>')
-            toc.write('\n\t\t\t</li>\n')
+        toc.write('<!-- render : yes               -->\n')
+        toc.write('<!-- book   : BibleCommentary   -->\n')
+        toc.write('<!-- chapter: TableOfContents   -->\n')
+        toc.write('<!-- title  : Table of Contents -->\n\n')
+
+        # Outer "for" sorts in traditional Bible book order.
+        for book in bible_books.keys():
+            if book in book_sorter:
+                toc.write('\n\t\t\t<li>' + book.replace('_',' ') + '\n\t\t\t\t<ul>')
+
+                chapters = glob.glob(book_sorter[book] + '\\**\\')
+                chapter_sorter = {}
+                for chapter in chapters:
+                    chapter_sorter[chapter.removeprefix(book_sorter[book]).removesuffix('\\')] = chapter
+                
+                # for chapter sorts in numerical order, not string-representation-of-a-number order.
+                # I.e., 11 > 2, not '11' < '2'.
+                for chapter in range(bible_books[book]):
+                    # Real chapters don't start at 0.
+                    chapter += 1
+
+                    if str(chapter) in chapter_sorter:
+                        toc.write('\n\t\t\t\t\t<li>')
+                        toc.write('<a href="{{ base_path }}' + chapter_sorter[str(chapter)].removeprefix('content\\') + '">')
+                        toc.write(str(chapter) + '</a></li>')
+
+                # Appendix has 0 chapters and won't enter the "for chapter" loop above.
+                if book == 'Appendix':
+                    articles = glob.glob('_site\\Appendix\\**\\')
+                    for article in articles:
+                        toc.write('\n\t\t\t\t\t<li>')
+                        toc.write('<a href="{{ base_path }}' + article.removeprefix('_site\\') + '">')
+                        toc.write(article.removeprefix('_site\\Appendix\\').replace('-', ' ').removesuffix('\\') + '</a></li>')
+
+                toc.write('\n\t\t\t\t</ul>')
+                toc.write('\n\t\t\t</li>\n')
+
 
     # Create Table of Contents site page.
     make_pages('content/index.html', '_site/index.html',
                toc_layout, **params)
-
 
 # Test parameter to be set temporarily by unit tests.
 _test = None
