@@ -63,6 +63,14 @@ blockquote.external::after {
     font-weight: bold;
 }
 
+#jv {
+    text-align: right;
+}
+
+#pv {
+    text-align: left;
+}
+
 
 /* from here, stolen from makesite.py */
 /* Single column layout */
