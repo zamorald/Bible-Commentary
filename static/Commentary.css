@@ -63,12 +63,24 @@ blockquote.external::after {
     font-weight: bold;
 }
 
-#jv {
+td[headers*="jv"] {
     text-align: right;
+    padding-right: 1em;
 }
 
-#pv {
+td[headers*="pv"] {
     text-align: left;
+    padding-left: 1em;
+}
+
+td[headers*="jt"] {
+    text-align: left;
+    padding-right: 2em;
+}
+
+td[headers*="pt"] {
+    text-align: right;
+    padding-left: 2em;
 }
 
 
