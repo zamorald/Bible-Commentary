@@ -63,6 +63,26 @@ blockquote.external::after {
     font-weight: bold;
 }
 
+td[headers*="jv"] {
+    text-align: right;
+    padding-right: 1em;
+}
+
+td[headers*="pv"] {
+    text-align: left;
+    padding-left: 1em;
+}
+
+td[headers*="jt"] {
+    text-align: left;
+    padding-right: 2em;
+}
+
+td[headers*="pt"] {
+    text-align: right;
+    padding-left: 2em;
+}
+
 
 /* from here, stolen from makesite.py */
 /* Single column layout */
