@@ -87,7 +87,7 @@ td[headers*="pt"] {
 /* from here, stolen from makesite.py */
 /* Single column layout */
 nav section, header section, main, footer section {
-    max-width: 40em;
+    /*max-width: 40em; allowing device to control in meta tag */
     margin-left: auto;
     margin-right: auto;
     padding: 0 0.5em;
