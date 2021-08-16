@@ -2,27 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ title }} - {{ subtitle }}</title>
-    <link rel="stylesheet" type="text/css" href="{{ base_path }}Commentary.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-dark-grey.css">
     <script src="{{ base_path }}html5shiv-printshiv.min.js"></script>
+    <script src="{{ base_path }}gtag.js"></script>
+    <script src="{{ base_path }}Commentary.js"></script>
+    <style>
+        a {text-decoration: none;}
+        a:hover{font-weight: bold;}
+    </style>
 </head>
 
-<body id="{{ book }}{{ chapter }}">
+<body id="{{ book }}{{ chapter }}" class="w3-theme">
 
-<nav>
-<section>
-    <span class="home">
-        <a href="{{ base_path }}">Table of Contents</a>
-    </span>
+<nav class="w3-container w3-theme-d3">
+<section class="w3-bar">
+    <button class="w3-button w3-theme-d5"><a href="{{ base_path }}">Table of Contents</a></button>
+    <button class="w3-button w3-theme-d5" onclick="openFullscreen();">Go Fullscreen</button>
 </section>
 </nav>
 
-<main>
+<main class="w3-container">
 {{ content }}
 </main>
 
-<footer>
+<footer class="w3-container w3-theme-d3">
     <section>
         <p>&copy; {{ current_year }} {{ author }}</p>
     </section>

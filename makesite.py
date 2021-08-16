@@ -284,7 +284,7 @@ def main():
         # Outer "for" sorts in traditional Bible book order.
         for book in bible_books.keys():
             if book in book_sorter:
-                toc.write('\n\t\t\t<li>' + book.replace('_',' ') + '\n\t\t\t\t<ul>')
+                toc.write('\n\t\t\t<li>' + book.replace('_',' ') + '\n\t\t\t\t<ul class="w3-ul">')
 
                 chapters = glob.glob(book_sorter[book] + '\\**\\')
                 chapter_sorter = {}
@@ -299,7 +299,7 @@ def main():
 
                     if str(chapter) in chapter_sorter:
                         toc.write('\n\t\t\t\t\t<li>')
-                        toc.write('<a href="{{ base_path }}' + chapter_sorter[str(chapter)].removeprefix('content\\') + '">')
+                        toc.write('<a class="w3-hover-shadow" href="{{ base_path }}' + chapter_sorter[str(chapter)].removeprefix('content\\') + '">')
                         toc.write(str(chapter) + '</a></li>')
 
                 # Appendix has 0 chapters and won't enter the "for chapter" loop above.
@@ -307,7 +307,7 @@ def main():
                     articles = glob.glob('_site\\Appendix\\**\\')
                     for article in articles:
                         toc.write('\n\t\t\t\t\t<li>')
-                        toc.write('<a href="{{ base_path }}' + article.removeprefix('_site\\') + '">')
+                        toc.write('<a class="w3-hover-shadow" href="{{ base_path }}' + article.removeprefix('_site\\') + '">')
                         toc.write(article.removeprefix('_site\\Appendix\\').replace('-', ' ').removesuffix('\\') + '</a></li>')
 
                 toc.write('\n\t\t\t\t</ul>')
