@@ -319,6 +319,22 @@ def main():
     make_pages('content/index.html', '_site/index.html',
                toc_layout, **params)
 
+    # Create target site directory from scratch.
+    log('Clearing E:\\GitHub\\Accuracy-Matters ......')
+    if os.path.isdir('E:\\GitHub\\Accuracy-Matters'):
+        with os.scandir(path='E:\\GitHub\\Accuracy-Matters') as contents:
+            for entry in contents:
+                if not entry.name.startswith('.'):
+                    if entry.is_file():
+                        print('Removing file:', entry.name)
+                        os.remove(entry)
+                    else:
+                        print('Removing directory:', entry.name)
+                        shutil.rmtree(entry)
+    log('Copying _site => E:\\GitHub\\Accuracy-Matters')
+    shutil.copytree('_site', 'E:\\GitHub\\Accuracy-Matters', dirs_exist_ok=True)
+    log('Now go commit that gh-pages branch.')
+
 # Test parameter to be set temporarily by unit tests.
 _test = None
 

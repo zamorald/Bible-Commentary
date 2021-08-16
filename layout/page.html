@@ -3,12 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>{{ title }} - {{ subtitle }}</title>
+
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
     <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-dark-grey.css">
+
     <script src="{{ base_path }}html5shiv-printshiv.min.js"></script>
-    <script src="{{ base_path }}gtag.js"></script>
     <script src="{{ base_path }}Commentary.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GXWZLP719T"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-GXWZLP719T');
+    </script>
+
     <style>
         a {text-decoration: none;}
         a:hover{font-weight: bold;}
