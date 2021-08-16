@@ -161,7 +161,8 @@ def main():
         'subtitle': 'Commentary on the Bible',
         'author': 'Luis D. Zamora',
         'site_url': 'http://localhost:8000',
-        'current_year': datetime.datetime.now().year
+        'current_year': datetime.datetime.now().year,
+        'last_updated': datetime.datetime.now().strftime('%A %d %B %Y %I:%M %p %z')
     }
     # Books and chapters.
     bible_books = {
