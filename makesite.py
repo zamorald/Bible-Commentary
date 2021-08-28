@@ -315,14 +315,16 @@ def main():
                 toc.write('\n\t\t\t</li>\n')
 
 
-    # Create Table of Contents site page.
+    # Create Table of Contents and Change Log site pages.
     make_pages('content/index.html', '_site/index.html',
                toc_layout, **params)
+    make_pages('content/change-log.html', '_site/change-log.html',
+           page_layout, **params)
 
     # Create target site directory from scratch.
-    log('Clearing E:\\GitHub\\Accuracy-Matters ......')
-    if os.path.isdir('E:\\GitHub\\Accuracy-Matters'):
-        with os.scandir(path='E:\\GitHub\\Accuracy-Matters') as contents:
+    log('Clearing \\Accuracy-Matters ......')
+    if os.path.isdir('\\Accuracy-Matters'):
+        with os.scandir(path='\\Accuracy-Matters') as contents:
             for entry in contents:
                 if not entry.name.startswith('.'):
                     if entry.is_file():
@@ -331,8 +333,8 @@ def main():
                     else:
                         print('Removing directory:', entry.name)
                         shutil.rmtree(entry)
-    log('Copying _site => E:\\GitHub\\Accuracy-Matters')
-    shutil.copytree('_site', 'E:\\GitHub\\Accuracy-Matters', dirs_exist_ok=True)
+    log('Copying _site => \\Accuracy-Matters')
+    shutil.copytree('_site', '\\Accuracy-Matters', dirs_exist_ok=True)
     log('Now go commit that gh-pages branch.')
 
 # Test parameter to be set temporarily by unit tests.
