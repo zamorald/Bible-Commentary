@@ -162,7 +162,8 @@ def main():
         'author': 'Luis D. Zamora',
         'site_url': 'http://localhost:8000',
         'current_year': datetime.datetime.now().year,
-        'last_updated': datetime.datetime.now().strftime('%A %d %B %Y %I:%M %p %z')
+        'last_updated': datetime.datetime.now().strftime('%A %d %B %Y %I:%M %p %z'),
+        'current_version': '1.3.0'
     }
     # Books and chapters.
     bible_books = {
