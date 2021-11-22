@@ -163,7 +163,7 @@ def main():
         'site_url': 'http://localhost:8000',
         'current_year': datetime.datetime.now().year,
         'last_updated': datetime.datetime.now().strftime('%A %d %B %Y %I:%M %p %z'),
-        'current_version': '1.3.1'
+        'current_version': '1.3.2'
     }
     # Books and chapters.
     bible_books = {
@@ -316,10 +316,12 @@ def main():
                 toc.write('\n\t\t\t</li>\n')
 
 
-    # Create Table of Contents and Change Log site pages.
+    # Create Table of Contents, Change Log, and Custom 404 site pages.
     make_pages('content/index.html', '_site/index.html',
                toc_layout, **params)
     make_pages('content/change-log.html', '_site/change-log.html',
+           page_layout, **params)
+    make_pages('content/404.html', '_site/404.html',
            page_layout, **params)
 
     # Create target site directory from scratch.
