@@ -1,0 +1,29 @@
+<section class="w3-row-padding w3-border-top">
+    <h5 class="verse commented w3-theme-l4 w3-container w3-quarter">
+        {{ Commented }}
+    </h5>
+
+    <div class="w3-container w3-rest">
+        <!--    <span class="commented w3-theme-l4"></span>
+                <span lang="el" class="greek w3-large"></span>
+                <span lang="he" class="hebrew w3-large"></span> -->
+        <p>
+            {{ Comment }}
+        </p>
+
+        <blockquote class="w3-panel w3-leftbar">
+            <h6>
+                <cite>{{ Quoted }}</cite>
+            </h6>
+
+            <p>
+                {{ Quote }}
+            </p>
+
+            <p class="poetry">
+                {{ 1st Line }}<br>
+                <span class="verset-indent w3-margin-left">{{ 2nd Line }}</span>
+            </p>
+        </blockquote>
+    </div>
+</section>
