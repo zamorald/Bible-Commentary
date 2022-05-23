@@ -1,0 +1,74 @@
+/* ==================================================
+        These styles supplement or override W3.css
+   ================================================== */
+
+
+/* --------------------------------------------------
+    Greek styles
+   -------------------------------------------------- */
+@font-face {
+    font-family: 'GFSPorsonOTF';
+    src: url('\GFSPorson.otf');
+    format('opentype');
+}
+
+@font-face {
+    font-family: 'GFSPorson';
+    src: url('\GFSPorson.ttf');
+    format('truetype');
+}
+
+.greek {
+    font-family: 'GFSPorson', 'GFSPorsonOTF', serif;
+}
+
+
+
+/* --------------------------------------------------
+    Hebrew styles
+   -------------------------------------------------- */
+@font-face {
+    font-family: 'Ezra';
+    src: url('\SILEOT.ttf');
+    format('truetype');
+}
+
+@font-face {
+    font-family: 'Ezra SR';
+    src: url('\SILEOTSR.ttf');
+    format('truetype');
+}
+
+.hebrew {
+    font-family: 'Ezra', 'Ezra SR', serif;
+}
+
+
+
+/* --------------------------------------------------
+    Bible Text styles
+   -------------------------------------------------- */
+@font-face {
+    font-family: 'Visomatic';
+    src: url('\Visomatic_Electrite.ttf');
+    format('truetype');
+}
+
+.verse {
+    font-family: 'Visomatic', sans-serif;
+}
+
+
+
+/* --------------------------------------------------
+    General styles
+   -------------------------------------------------- */
+p {
+    text-align: justify;
+}
+
+
+
+.poetry {
+    text-align: left;
+}
